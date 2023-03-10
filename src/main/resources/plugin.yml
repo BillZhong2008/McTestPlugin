@@ -1,0 +1,14 @@
+name: McTestPlugin
+description: A test plugin
+author: Bill_Zhong
+website: billzhong.vercel.app
+version: '${version}'
+main: com.bill.mctestplugin.McTestPlugin
+softdepend:
+  - PlaceHolderAPI
+api-version: 1.19
+commands:
+  kit:
+    description: Give player a kit.
+    usage: /<command>
+    permission: McTestPlugin.kit
